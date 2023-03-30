@@ -1,3 +1,117 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>LISTAS DE CONTADO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <ion-searchbar
+      showCancelButton="never"
+      placeholder="Pesquisar"
+    ></ion-searchbar>
+
+    <ion-item color="dark">
+      <div>
+        <ion-thumbnail slot="start">
+          <img src="../assets/usuarios/img1.png" />
+        </ion-thumbnail>
+      </div>
+      <pre></pre>
+      <div>
+        <ion-label class="nome">Aghata Domeni </ion-label>
+
+        <ion-label class="gmail">
+          <p>aghata123@gmail.com</p>
+        </ion-label>
+
+        <ion-label class="gmail">
+          <p>ID: 001</p>
+        </ion-label>
+      </div>
+      <ion-chip class="botao" color="success">
+        <ion-label><ion-icon name="camera"></ion-icon> Fotos</ion-label>
+      </ion-chip>
+    </ion-item>
+
+    <ion-item color="dark">
+      <div>
+        <ion-thumbnail slot="start">
+          <img src="../assets/usuarios/img2.png" />
+        </ion-thumbnail>
+      </div>
+      <pre></pre>
+      <div>
+        <ion-label class="nome">Joaquim Anselmo Martins</ion-label>
+
+        <ion-label class="gmail">
+          <p>joaquimmartins@gmail.com</p>
+        </ion-label>
+
+        <ion-label class="gmail">
+          <p>ID: 002</p>
+        </ion-label>
+      </div>
+    </ion-item>
+
+    <ion-item color="dark">
+      <div>
+        <ion-thumbnail slot="start">
+          <img src="../assets/usuarios/img3.png" />
+        </ion-thumbnail>
+      </div>
+      <pre></pre>
+      <div>
+        <ion-label class="nome">Flora leme</ion-label>
+
+        <ion-label class="gmail">
+          <p>floraleme@gmail.com</p>
+        </ion-label>
+
+        <ion-label class="gmail">
+          <p>ID: 003</p>
+        </ion-label>
+      </div>
+    </ion-item>
+
+    <ion-item color="dark">
+      <div>
+        <ion-thumbnail slot="start">
+          <img src="../assets/usuarios/img4.png" />
+        </ion-thumbnail>
+      </div>
+      <pre></pre>
+      <div>
+        <ion-label class="nome">André da Silva</ion-label>
+
+        <ion-label class="gmail">
+          <p>silvaandre@gmail.com</p>
+        </ion-label>
+
+        <ion-label class="gmail">
+          <p>ID: 004</p>
+        </ion-label>
+      </div>
+    </ion-item>
+
+    <ion-item color="dark">
+      <div>
+        <ion-thumbnail slot="start">
+          <img src="../assets/usuarios/img5.png" />
+        </ion-thumbnail>
+      </div>
+      <pre></pre>
+      <div>
+        <ion-label class="nome">Maria Eduarda Gomes</ion-label>
+
+        <ion-label class="gmail">
+          <p>Marigomes@gmail.com</p>
+        </ion-label>
+
+        <ion-label class="gmail">
+          <p>ID: 005</p>
+        </ion-label>
+      </div>
+    </ion-item>
+  </div>
+</ion-content>

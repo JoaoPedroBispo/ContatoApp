@@ -1,0 +1,26 @@
+ion-searchbar{
+  --background: rgb(37, 37, 37);
+  --placeholder-color: white;
+  --color: white;
+  --border-radius: 5px;
+}
+
+ion-thumbnail {
+  width: 100px;
+  --size: 110px;
+  --border-radius: 10%;
+  padding: 3px;
+}
+
+.nome{
+  margin: 6px;
+  font-size: 18px;
+}
+.gmail{
+  margin: 6px;
+  font-size: 18px;
+}
+
+.botao{
+  left: 50px;
+}
