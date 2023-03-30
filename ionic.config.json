@@ -1,0 +1,7 @@
+{
+  "name": "ContatoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
