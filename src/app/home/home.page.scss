@@ -1,27 +1,33 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-searchbar{
+  --background: rgb(37, 37, 37);
+  --placeholder-color: white;
+  --color: white;
+  --border-radius: 5px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-thumbnail {
+  width: 85px;
+  --size: 110px;
+  margin: 4px;
+  --border-radius: 10%;
+  padding: 2px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.nome{
+  margin: 6px;
+  font-size: 18px;
 }
-
-#container a {
-  text-decoration: none;
+.gmail{
+  margin: 6px;
+  color: rgb(172, 172, 172);
+  opacity: 0.8;
+  font-size: 18px;
+}
+.id{
+  margin: 6px;
+  color: rgb(148, 148, 148);
+  font-size: 18px;
+}
+.botao{
+  left: 50px;
 }
