@@ -26,6 +26,7 @@ ion-content{
   width: 25px;
   height: 25px;
 }
+
 ion-toolbar{
   ion-title{
     font-size: 23px;
@@ -34,17 +35,13 @@ ion-toolbar{
   }
 }
 
-.card{
-
-}
-
 .nomeText{
   font-size: 20px;
   color: white;
 }
 
 .subText{
-  margin-top: -10px;
-  font-size: 18px;
-  color: white;
+
+  font-size: 16px;
+  color: rgb(212, 212, 212);
 }

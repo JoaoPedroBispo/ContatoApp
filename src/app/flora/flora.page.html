@@ -2,15 +2,11 @@
   <ion-toolbar color="dark">
     <ion-buttons slot="start">
       <ion-button (click)="voltar()" color="white">
-        <ion-icon
-          class="icon"
-
-          name="chevron-back-outline"
-        ></ion-icon>
+        <ion-icon class="icon" name="chevron-back-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-buttons >
-      <ion-title>Flora</ion-title>
+    <ion-buttons>
+      <ion-title>Flora Leme </ion-title>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -23,13 +19,42 @@
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title>Aghatão</ion-card-title>
-        <ion-card-subtitle>cas</ion-card-subtitle>
+        <ion-title class="nomeText">Flora Leme</ion-title>
       </ion-card-header>
 
       <ion-card-content>
-        Here's a small text description for the card content. Nothing more,
-        nothing less.
+        <ion-item color="dark">
+          <ion-avatar slot="start">
+            <ion-icon
+              class="icon"
+              name="logo-whatsapp"
+              color="success"
+            ></ion-icon>
+          </ion-avatar>
+          <ion-label class="subText"> (14) 99067-8526 </ion-label>
+        </ion-item>
+
+        <ion-item color="dark">
+          <ion-avatar slot="start">
+            <ion-icon
+              class="icon"
+              name="logo-instagram"
+              color="danger"
+            ></ion-icon>
+          </ion-avatar>
+          <ion-label class="subText"> @flora.lame </ion-label>
+        </ion-item>
+
+        <ion-item color="dark">
+          <ion-avatar slot="start">
+            <ion-icon
+              class="icon"
+              name="logo-facebook"
+              color="primary"
+            ></ion-icon>
+          </ion-avatar>
+          <ion-label class="subText"> Flora Leme </ion-label>
+        </ion-item>
       </ion-card-content>
     </ion-card>
   </div>
